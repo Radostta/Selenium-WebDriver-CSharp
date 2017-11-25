@@ -54,6 +54,7 @@ namespace SeleniumFirstLectionDemo
             //FindElements looks for an array of elements and returns 0, but with no exception
             //In the brackets: By. -> choose the type of selectors that we will choose (right click - inspect - on the site)
             //We paste the selector from the HTML document inside ""
+            //In case of no ID, next best: CSS selector or XPATH (relative path) selector (xpath - slower and not very suitable for IE)
 
             //firstNameTextBox. will show us what actions we can take on this element in the page
             //SendKeys simulates input from a keyboard
