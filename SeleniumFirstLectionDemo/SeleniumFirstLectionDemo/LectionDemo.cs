@@ -24,6 +24,7 @@ namespace SeleniumFirstLectionDemo
         //Tags tell the class what functions will be used:
         //Available function tags when using Microsoft.VisualStudio.TestTools.UnitTesting (MSTest):
 
+        //TEST CLASS:
         //[ClassInitialize] - executes once before all test cases \ NUnit test class consists of: [OneTimeSetUp]
         //[TestInitialize] - executes before each test \ NUnit: [SetUp]
         //[TestMethod] - tests are defined here \ NUnit: [Test]
